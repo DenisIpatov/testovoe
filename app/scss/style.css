@@ -1,0 +1,89 @@
+@font-face { font-family: 'MyriadPro'; src: url("../fonts/MyriadPro.eot"); src: url("../fonts/MyriadPro.eot") format("embedded-opentype"), url("../fonts/MyriadPro.woff2") format("woff2"), url("../fonts/MyriadPro.woff") format("woff"), url("../fonts/MyriadPro.ttf") format("truetype"), url("../fonts/MyriadPro.svg#MyriadPro") format("svg"); }
+/* line 10, style.scss */
+body * { font-family: "MyriadPro", sans-serif; }
+
+/* line 13, style.scss */
+.container { max-width: 980px; }
+
+/* line 16, style.scss */
+.topMenu { padding-top: 30px; line-height: 74px; }
+
+/* line 21, style.scss */
+.navbar { margin-bottom: 0; }
+
+/* line 25, style.scss */
+.navbar-nav { float: none; text-align: center; }
+
+/* line 29, style.scss */
+.navbar-nav li { float: none; display: inline-block; }
+/* line 32, style.scss */
+.navbar-nav li:not(.firstLi) { padding-left: 8px; }
+/* line 35, style.scss */
+.navbar-nav li:not(.lastLi) { padding-right: 8px; }
+
+/* line 39, style.scss */
+.navbar-default { background-color: transparent; border: none; text-align: center; }
+
+/* line 44, style.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #A4272A; background-color: transparent; }
+
+/* line 50, style.scss */
+.navbar-default .navbar-nav > li > a { color: #000; font-family: "MyriadPro", sans-serif, sans-serif; font-size: 18px; text-transform: uppercase; padding: 0; -webkit-transition: color 0.5s; transition: color 0.5s; }
+/* line 57, style.scss */
+.navbar-default .navbar-nav > li > a:hover { color: #A4272A; -webkit-transition: color 0.5s; transition: color 0.5s; }
+
+/* line 62, style.scss */
+.leftMenu { position: fixed; top: 50px; width: 250px; background: rgba(255, 255, 255, 0.9); padding-top: 20px; border-top: solid 4px #E8E9E9; left: -250px; z-index: 100; padding-left: 10px; }
+/* line 72, style.scss */
+.leftMenu ul li { font-size: 22px; margin-top: 30px; line-height: 30px; }
+/* line 76, style.scss */
+.leftMenu ul li a { color: #24375C; text-decoration: none; -webkit-transition: color 0.3s; transition: color 0.3s; display: block; height: 30px; }
+/* line 82, style.scss */
+.leftMenu ul li a:hover { color: #A4272A; -webkit-transition: color 0.3s; transition: color 0.3s; }
+/* line 87, style.scss */
+.leftMenu ul li.active a { color: #A4272A; }
+
+/* line 92, style.scss */
+#toggleMenuBut { width: 50px; height: 50px; margin: 0 auto; border: none; float: left; margin-top: -100px; }
+
+/* line 100, style.scss */
+#toggleMenuBut:hover, #toggleMenuBut:focus { background-color: white; }
+
+/* line 104, style.scss */
+#toggleMenuBut div { width: 100%; height: 5px; background: #24375C; margin: 4px auto; -webkit-transition: all 0.3s; transition: all 0.3s; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+
+/* line 112, style.scss */
+#toggleMenuBut.on .one { -webkit-transform: rotate(45deg) translate(5px, 5px); -ms-transform: rotate(45deg) translate(5px, 5px); transform: rotate(45deg) translate(5px, 5px); }
+
+/* line 115, style.scss */
+#toggleMenuBut.on .two { opacity: 0; }
+
+/* line 118, style.scss */
+#toggleMenuBut.on .three { -webkit-transform: rotate(-45deg) translate(7px, -8px); -ms-transform: rotate(-45deg) translate(7px, -8px); transform: rotate(-45deg) translate(7px, -8px); }
+
+/* line 123, style.scss */
+.blueLine { height: 10px; background-color: #00A0E3; margin-top: 20px; }
+
+/* line 129, style.scss */
+.jumbo .wrapImg { height: 700px; width: 100%; z-index: -1; position: absolute; background-image: url(../img/bigImg3.png); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+/* line 139, style.scss */
+.jumbo .jumboText { padding-top: 75px; color: #fff; }
+/* line 142, style.scss */
+.jumbo .jumboText p { font-size: 74px; text-transform: uppercase; margin-top: 0; margin-bottom: 40px; line-height: 60px; }
+/* line 149, style.scss */
+.jumbo .jumboText h3 { font-size: 34px; background-color: #00A0E3; padding-left: 30px; border-radius: 5px; height: 50px; line-height: 50px; margin-top: 60px; margin-bottom: 70px; }
+/* line 160, style.scss */
+.jumbo .jumboPic { text-align: center; }
+/* line 162, style.scss */
+.jumbo .jumboPic img { margin-bottom: 15px; }
+/* line 165, style.scss */
+.jumbo .jumboPic p { color: #fff; font-size: 26px; line-height: 26px; }
+
+/* line 172, style.scss */
+.news { height: 80px; }
+/* line 175, style.scss */
+.news img { width: 100%; height: 80px; position: absolute; }
+/* line 180, style.scss */
+.news h2 { color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

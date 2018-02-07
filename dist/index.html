@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Винтерком</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/media.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+                <div class="wrapGoods">
+                    <a href="cig1.html">
+                        <div class="leftBonus">
+                            <img src="img/akcii.png" alt="">
+                            <img src="img/podzakaz.png" alt="">
+                            <img src="img/ozidaetcya.png" alt="">
+                        </div>
+                        <div class="rightBonus">
+                            <img src="img/hit.png" alt="">
+                            <img src="img/new.png" alt="">
+                            <img src="img/15% cloud.png" alt="">
+                        </div>
+                        <div class="cigsPic">
+                            <img src="img/cig1.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="wrapCigText">
+                    <div class="stars text-center">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="ocenka">4.5</span>
+                            <a href="" class="otzyv">Отзывы: <span>21</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="wrapGoods">
+                    <a href="cig2.html">
+                        <div class="leftBonus">
+                            <img src="img/akcii.png" alt="">
+                            <img src="img/podzakaz.png" alt="">
+                            <img src="img/ozidaetcya.png" alt="">
+                        </div>
+                        <div class="rightBonus">
+                            <img src="img/hit.png" alt="">
+                            <img src="img/new.png" alt="">
+                            <img src="img/15% cloud.png" alt="">
+                        </div>
+                        <div class="cigsPic">
+                            <img src="img/cig2.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="wrapGoods">
+                    <a href="cig3.html">
+                        <div class="leftBonus">
+                            <img src="img/akcii.png" alt="">
+                            <img src="img/podzakaz.png" alt="">
+                            <img src="img/ozidaetcya.png" alt="">
+                        </div>
+                        <div class="rightBonus">
+                            <img src="img/hit.png" alt="">
+                            <img src="img/new.png" alt="">
+                            <img src="img/15% cloud.png" alt="">
+                        </div>
+                        <div class="cigsPic">
+                            <img src="img/cig3.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- скрипт анимированная кнопка меню для маленьких экранов -->
+    <script>
+        $('#toggleMenuBut').click(function () {
+            $('#toggleMenuBut').toggleClass(" on ");
+            if ($('.leftMenu').css('left') == '0px') {
+                $('.leftMenu').animate({
+                    left: '-270px'
+                }, 500);
+            } else {
+                $('.leftMenu').animate({
+                    left: '0px'
+                }, 500);
+            }
+        });
+    </script>
+</body>
+
+</html>
